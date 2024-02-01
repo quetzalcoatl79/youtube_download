@@ -91,3 +91,6 @@ else:
             stream = video.streams.get_by_itag(YOUTUBE_STREAM_DEFAULT)
         titre = replace_special_characters(video.title)
         stream.download(output_path=DOWNLOAD_DIR, filename=f"{titre}.{wherefile}")
+
+
+
